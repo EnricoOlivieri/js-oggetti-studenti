@@ -11,20 +11,24 @@ for(var key in studente){
 }
 
 //creazione array di studenti e stampo nome e cognome
-var studenti = {
+var studenti = [
+ {
   'nome': 'Enrico',
   'cognome': 'Olivieri',
-}
-
-var studenti = {
+  'età': 25
+ },
+ {
   'nome': 'Luca',
   'cognome': 'Rossi',
-}
-
-var studenti = {
+  'età': 26
+ },
+ {
   'nome': 'Marco',
   'cognome': 'Coda',
-}
+  'età': 27
+ },
+]
+
 
 for(var i = 0; 0 < studenti.length; i++){
   console.log('Il nome dello studente è: '+studenti[i].nome);
