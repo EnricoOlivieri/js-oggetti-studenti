@@ -30,7 +30,7 @@ var studenti = [
 ]
 
 
-for(var i = 0; 0 < studenti.length; i++){
+for(var i = 0; i < studenti.length; i++){
   console.log('Il nome dello studente è: '+studenti[i].nome);
   console.log('Il nome dello studente è: '+studenti[i].cognome);
 }
